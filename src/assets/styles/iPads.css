@@ -1,0 +1,55 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+.navbar {
+   height: 100%;
+   width: 100%;
+}
+#margin_space{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.sign_up{
+    width: 100%;
+}
+
+.sign_in{
+    width: 100%;
+}
+
+.carousel {
+    height: 100%;
+}
+
+.caption_style > h3{
+    margin-bottom: 35%;
+    margin-left:  2%;
+}
+
+.caption_style > p{
+    opacity: 0.8;
+    margin-left:  -10%;
+}
+
+.google_play{
+    position: absolute;
+    width: 145.92px;
+    height: 48px;
+    left: 100px;
+    top: 276px;
+    margin-left:  -10%;   
+}
+
+.app_store{
+    position: absolute;
+    width: 145.92px;
+    height: 48px;
+    left: 100px;
+    top: 276px;
+    margin-left:  13%;   
+}
+
+}

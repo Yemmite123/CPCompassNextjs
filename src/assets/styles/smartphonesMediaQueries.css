@@ -1,0 +1,555 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+/* Navigation Menu Start Here  */
+#margin_space{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.navbar .nav-link {    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1E1E1E;
+    opacity: 0.85;
+    margin-left: 0px;
+    margin-bottom: 3%;
+}
+
+.sign_in{
+    width: 100%;
+}
+.sign_up{
+    width: 100%;
+}
+/* Navigation Menu End Here  */
+
+/* carousel Star Here  */
+.carousel {
+    height: 100%;
+}
+
+.caption_style > h3{
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20%;
+    margin-left:  1%;
+    text-align: center;
+}
+
+.caption_style > p{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 80px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 160% */
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-left:  0%;
+    margin-right:  0%;
+    text-align: center;
+}
+
+.caption_style1 > h3{
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    color: #1E1E1E;
+    margin-bottom: 27%;
+    margin-left:  1%;
+    text-align: center;
+}
+
+.caption_style1 > p{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 80px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 160% */
+    letter-spacing: -0.015em;
+    color: #1E1E1E;
+    opacity: 0.8;
+    margin-left:  0%;
+    margin-right:  0%;
+    text-align: center;
+}
+
+.google_play{
+    display: none;  
+}
+
+.app_store{
+    display: none;  
+}
+
+/* carousel Star Here  */
+/* Meet Compass Section start here  */
+#margin_space2{
+    margin-left: 2%;
+    margin-right: 0%;
+}
+
+.meetComp_tabs > div h1 {
+    width: 100%;
+}
+
+.meetComp_section > p{
+    width: 100%;
+    height: 100%;
+}
+
+.meetComp_tabs > div > p {
+    width: 100%;
+    height: 100%;
+    left: 139px;
+}
+
+.meetComp_tabs_img > div > div > img{
+    width: 100%;
+    margin-top: 75%;
+    height: 100%;
+    margin-left: -7%;
+}
+
+/* Meet Compass Section End here  */
+
+
+/* Build your wealth on autopilot, Start Here */
+#section_color{
+    height: 100%;
+    top: 2183px;
+    background: #F5FAFF;
+}
+
+.autopilot_section > h1{
+    margin-top: 0%;
+}
+
+.autopilot_section > p{
+    width: 100%;
+    height: 100%;
+}
+
+.autopilot_img > img{
+    width: 100%;
+}
+
+.autopilot_list_items > p{
+    width: 100%;
+    margin-left: 0%;
+}
+
+.autopilot_spacing{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* Build your wealth on autopilot, End Here */
+
+/* Investment Calculator Start Here */
+
+.investment_calculator{
+    height: 100%;
+    background: #F4F6F8;
+    border-radius: 10px;
+}
+
+.investment_calculator_goal > h1{
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.investment_calculator_goal > p{
+    width: 100%;
+    margin-left: 2%;
+}
+.investment_calculator_form{ 
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 11%;
+}
+
+#calculator_form{
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.calculator_input{
+    margin-top: 7%;
+  }
+
+  .calculator_input2{
+    margin-top: 7%;
+ }
+
+ .calculator_input > input{
+    width: 100%;
+    height: 45px;
+}
+
+.form_icon{
+    margin-top: 10px;
+    margin-left: 0px;
+    display: none;  
+}
+
+.calculator_btn{
+    width: 100%;
+}
+
+.calculator_input2 > input[type=text] {
+    width: 100%;
+}
+.calculator_input2 > select{
+    width: 100%;
+}
+/* Investment Calculator End Here */
+
+/* App Download Start Here */
+
+#app_download{
+    height: 100%;
+    left: 1px;
+    /* top: 3909px; */
+    /* light blue */
+    background: #CFEAFC;
+    border-radius: 8px;
+}
+
+.app_download_img{
+    margin-left: 0%;
+}
+
+.app_download_section > h1{
+    width: 100%;
+    height: 100%;  
+    font-size: 35px;
+    margin-top: -20%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.app_download_section > p{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15%;
+
+}
+
+.app_store2{
+    margin-left: 4%;
+}
+
+.app_store2 > img{
+    width: 46%;
+    margin-bottom: 20%;
+}
+.google_play2 > img{
+    width: 46%;
+    margin-bottom: 20%;
+}
+
+/* App Download End Here */
+
+/* Footer Section Start Here */
+.footer_section > p{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+#footer_space{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+/* Footer Section End Here */
+
+/* About Us Section Start Here */
+.about_section {
+    margin-left: 6%;
+    margin-top: 8%;
+    margin-right: 6%;
+}
+
+.about_section > p{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.about_section_img > img{
+    float: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* About Us Section End Here */
+
+/* Our Values Start Here */
+#our_values{
+    height: 100%;
+    left: 0px;
+    top: 639px;
+    background: #F5FAFF;
+    margin-top: -3%;
+}
+
+#spacing{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+}
+
+.our_values_section > p{
+    width: 100%;
+    height: 160px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 220%;
+    /* or 44px */
+    text-align: left;
+    /* BLACK */
+    color: #1E1E1E;
+    margin: auto;
+}
+
+.retan{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #127FCB;
+}
+
+.mobile_spacing{
+  margin-top: 90%;
+}
+
+.retan > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.retan > h1{
+    padding-top: 2%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./images/share2.png");
+    /* Set a specific height */
+    min-height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #margin_space3{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+.other_content > p{
+    width: 100%;
+    left: 135px;
+    top: 1471px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 220%;
+    /* or 35px */
+    color: #414141;
+}
+.other_content_img{
+    float: none;
+    margin-top: 0%;
+    width: 100%;
+    height: 100;
+}
+.other_content_img > img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+}
+
+ /* Our Values End Here */
+/* Contact Us Section Start Here */
+ #contact{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #F5FAFF;
+}
+.contact_section > p {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#contact_container{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+}
+
+.contact_box{
+    width: 100%;
+    height: 222px;
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.address > p{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: 20px;
+}
+
+.vertical_line{
+    border-left:none;
+    /* transform: rotate(90deg); */
+    /* padding-left: -70px; */
+    height: 0px;
+    margin-left: 0px;
+  }
+
+/* Contact Us Section End Here */
+
+/* FAQs Section Start Here */
+.faq{
+    height: 306px;
+}
+
+.buttonIn { 
+    position: relative; 
+    width: 100%;
+    height: 100%;
+} 
+
+.accordion_faq{
+    width: 100%;
+    height: 100%;
+}
+
+.accordion_faq_para{
+    width: 100%;
+    height: 100%;
+}
+
+#accordion_card{
+    margin-bottom:1%;
+    width: 100%;
+    background: #E2F2FD;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.accordion_balancing {
+    margin-left: 0%;
+    margin-top: 20%;
+}
+/* FAQs Section End Here */
+
+/* Terms and Conditions Start Here */
+.parallax2 {
+    background-image: url("./images/right_rang.png"), url("./images/left_rang.png");
+    /* background-image: url("./images/left_rang.png"); */
+    min-height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .tandc_legal{
+    width: 100%;
+    height: 100%;
+    left: 172px;
+    top: 179px;
+    background: #E3F2FC;
+    border-radius: 10px;
+}
+
+#margin_space_tandc{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+}
+
+.app_download_section > img{
+    margin-top: -10%;
+    margin-left: 43%;
+}
+
+
+
+}

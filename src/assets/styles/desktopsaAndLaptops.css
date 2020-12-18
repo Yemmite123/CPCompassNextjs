@@ -1,0 +1,172 @@
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+
+.caption_style > h3{
+    margin-bottom: 30%;
+    margin-left:  8%;
+}
+.caption_style1 > h3{
+    margin-bottom: 37%;
+    margin-left:  8%;
+}
+.carousel {
+    height: 90%;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.32);
+}
+.app_store{
+    margin-left: 15%;   
+}
+
+/* Home Carousel End Here */
+
+
+/* Meet Compass Section start here  */
+#margin_space2{
+    margin-top: 5%;
+}
+.meetComp_section > h1{
+    left: 0px;
+    top: 0px; 
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    /* identical to box height, or 106% */
+    color: #127FCB;
+    
+}
+.meetComp_section > p{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.autopilot_list_items > p{
+    width: 412px;
+    margin-left: 6.5%;
+}
+
+/* .accordion_balancing{
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 7%;
+} */
+#contact{
+    width: 100%;
+    height: 772px;
+    left: 0px;
+    top: 0px;
+    background: #F5FAFF;
+}
+#contact_container{
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 5%;
+}
+
+.address > p{
+    margin-top: 0px;
+}
+
+.map-container iframe{
+    
+    width: 491px;
+    height: 345px;
+    position:absolute;
+}
+
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+/* body{
+    background-color: black;
+} */
+
+/* Home Carousel Start Here */
+
+.caption_style > h3{
+    margin-bottom: 30%;
+    margin-left:  8%;
+}
+.caption_style1 > h3{
+    margin-bottom: 37%;
+    margin-left:  8%;
+}
+.carousel {
+    height: 90%;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.32);
+}
+.app_store{
+    margin-left: 10%;   
+}
+
+/* Home Carousel End Here */
+
+
+/* Meet Compass Section start here  */
+#margin_space2{
+    margin-top: 5%;
+}
+.meetComp_section > h1{
+    left: 0px;
+    top: 0px; 
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    /* identical to box height, or 106% */
+    color: #127FCB;
+    
+}
+.meetComp_section > p{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.autopilot_list_items > p{
+    width: 412px;
+    margin-left: 6.5%;
+}
+
+.accordion_balancing{
+    margin-left: 17%;
+    margin-right: 20%;
+    margin-top: 7%;
+}
+#contact{
+    width: 100%;
+    height: 772px;
+    left: 0px;
+    top: 0px;
+    background: #F5FAFF;
+}
+#contact_container{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.address > p{
+    margin-top: 0px;
+}
+
+.map-container iframe{
+    
+    width: 491px;
+    height: 345px;
+    position:absolute;
+}
+.app_download_section > img{
+    margin-top: -10%;
+    margin-left: 25%;
+}
+}

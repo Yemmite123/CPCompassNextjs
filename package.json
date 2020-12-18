@@ -1,0 +1,30 @@
+{
+  "name": "cp-compass",
+  "version": "4.25.3",
+  "description": "CP Compass",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Oluyemi",
+  "repository": "",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mdbreact": "^4.25.5",
+    "moment": "^2.29.1",
+    "next": "^9.3.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.0.3",
+    "next-images": "^1.4.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-moment": "^1.0.0",
+    "react-router": "^5.2.0",
+    "sweetalert2": "^10.12.5"
+  }
+}
